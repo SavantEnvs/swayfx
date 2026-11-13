@@ -1,0 +1,4 @@
+-c
+/nonexistent/swaynag.conf
+-m
+hi

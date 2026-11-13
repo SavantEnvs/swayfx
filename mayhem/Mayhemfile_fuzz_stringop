@@ -1,0 +1,12 @@
+project: savantenvs/swayfx
+target: fuzz_stringop
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_stringop/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_stringop
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_stringop/fuzz_stringop.dict
+    timeout: 60
+    env:
+      MFUZZ_COMPAT_LEVEL: '2'

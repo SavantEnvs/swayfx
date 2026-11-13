@@ -1,0 +1,1 @@
+exec swaymsg "workspace 1" ; focus left

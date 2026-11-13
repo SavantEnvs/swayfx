@@ -1,0 +1,16 @@
+-m
+x
+--background
+285577FF
+--text
+FFFFFFFF
+--border
+4C7899FF
+--border-bottom
+285577FF
+--button-background
+285577FF
+--button-text
+FFFFFFFF
+--border-bottom-size
+2

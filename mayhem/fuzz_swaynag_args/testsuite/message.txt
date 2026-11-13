@@ -1,0 +1,4 @@
+-m
+Hello from swaynag
+-t
+warning

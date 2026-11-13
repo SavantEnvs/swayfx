@@ -1,0 +1,1 @@
+{"config":"set $mod Mod4\nbindsym $mod+Return exec foot\n"}

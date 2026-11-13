@@ -1,0 +1,10 @@
+-m
+Exit sway?
+-B
+Yes
+swaymsg exit
+-Z
+No
+true
+-s
+Dismiss

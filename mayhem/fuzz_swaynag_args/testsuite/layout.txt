@@ -1,0 +1,12 @@
+--edge
+bottom
+--layer
+overlay
+--font
+monospace 10
+--output
+eDP-1
+--button-gap
+20
+--message-padding
+8

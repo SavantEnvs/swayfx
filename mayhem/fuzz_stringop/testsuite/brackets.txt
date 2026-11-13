@@ -1,0 +1,1 @@
+[app_id="foo bar" title=\"x\"] move to workspace 2, floating enable

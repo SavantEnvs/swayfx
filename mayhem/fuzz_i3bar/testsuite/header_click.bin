@@ -1,0 +1,3 @@
+{"version":1,"click_events":true,"stop_signal":10,"cont_signal":12}
+[
+[{"full_text":"cpu 12%","short_text":"12%","min_width":40,"align":"center","separator":false,"separator_block_width":9,"markup":"pango","background":"#000000cc","border":"#333333","border_top":1}]

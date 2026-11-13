@@ -1,0 +1,1 @@
+[{"name":"eDP-1","make":"BOE","model":"0x0747","serial":"0x0","active":true,"dpms":true,"primary":false,"scale":1.0,"subpixel_hinting":"unknown","transform":"normal","current_workspace":"1","modes":[{"width":1920,"height":1080,"refresh":60000}],"current_mode":{"width":1920,"height":1080,"refresh":60000},"rect":{"x":0,"y":0,"width":1920,"height":1080},"focus":[],"focused":true}]

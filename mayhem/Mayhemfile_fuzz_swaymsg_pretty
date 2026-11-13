@@ -1,0 +1,12 @@
+project: savantenvs/swayfx
+target: fuzz_swaymsg_pretty
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_swaymsg_pretty/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_swaymsg_pretty
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_swaymsg_pretty/fuzz_swaymsg_pretty.dict
+    timeout: 60
+    env:
+      MFUZZ_COMPAT_LEVEL: '2'

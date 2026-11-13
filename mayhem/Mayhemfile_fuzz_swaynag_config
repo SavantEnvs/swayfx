@@ -1,0 +1,12 @@
+project: savantenvs/swayfx
+target: fuzz_swaynag_config
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_swaynag_config/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_swaynag_config
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_swaynag_config/fuzz_swaynag_config.dict
+    timeout: 60
+    env:
+      MFUZZ_COMPAT_LEVEL: '2'

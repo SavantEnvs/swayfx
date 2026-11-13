@@ -1,0 +1,12 @@
+project: savantenvs/swayfx
+target: fuzz_i3bar
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_i3bar/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_i3bar
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_i3bar/fuzz_i3bar.dict
+    timeout: 60
+    env:
+      MFUZZ_COMPAT_LEVEL: '2'
